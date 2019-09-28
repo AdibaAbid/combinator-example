@@ -1,0 +1,102 @@
+#head{
+    background: #e85485ad;
+    font-family: 'Open Sans', sans-serif; 
+    padding-top: 83px;
+    padding-bottom: 73px; 
+}
+
+h1{
+text-align: center;
+font-size: 4em;
+font-family: 'Josefin Sans', sans-serif;
+}
+.btn{
+    text-align: center;
+}
+button:hover{
+    background-color: #ef3b4d;
+    box-shadow: 0px 0px 5px white;
+} 
+
+button{
+    color: white;
+    padding: 15px 47px;
+    font-size: 16px;
+    cursor: pointer;
+    background: black;
+    border: none;
+    margin-top: 9px;
+}
+h2{
+    font-family: 'Sofia', cursive;
+    font-size: 2em;
+    margin-top: 0;
+    text-align: center;
+}
+
+hr{
+    width: 67ex;
+    border: 1px solid;
+}
+
+#head p{
+    text-align: center;
+}
+#services{
+    padding: 46px;
+}
+#services i{
+font-size: 8em;
+}
+#services figure:hover > i{
+    color: #ef3b4d;
+}
+.figures{
+    text-align: center;
+    display: flex;
+}
+#contact{
+    background-color: #71bda4;
+    padding: 46px;
+}
+
+footer{
+    text-align: center;
+    background-color: #1a1c1ded;
+    color: white;
+    padding: 30px;
+}
+footer i{
+    font-size: 1.3em;
+    margin: 0,5px;
+}
+footer:hover i{
+    color: #ef3b4d;
+}
+
+.icon li{
+    display: inline;
+    text-align: center;
+}
+.icon ul{
+    padding-left: 450px;
+    list-style-type: none;
+
+}
+.icon i{
+    font-size: 3em;
+    border: 1px solid #222;
+    border-radius: 70px;
+    padding: 24px 25px;
+    margin: 0 10px;
+    
+}
+.icon i:hover{
+background-color: #222;
+color: #fcdea6;
+cursor: pointer;
+
+}
+i{
+    transition: color 3s, background-color 1s;
+}
